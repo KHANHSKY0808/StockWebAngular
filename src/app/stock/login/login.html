@@ -1,0 +1,29 @@
+<div class="login-container">
+  <form #frm1="ngForm" (ngSubmit)="Login_event(frm1)" class="login-form">
+
+    <h1 class="login-title">Đăng Nhập</h1>
+
+    <input 
+      name="username" 
+      ngModel 
+      placeholder="Username" 
+      required 
+      class="login-input"
+    />
+
+    <input 
+      name="password" 
+      ngModel 
+      type="password" 
+      placeholder="Password" 
+      required 
+      class="login-input"
+    />
+
+    <button type="submit" class="login-button">
+      Đăng Nhập
+    </button>
+
+    <p class="login-message">{{message}}</p>
+  </form>
+</div>

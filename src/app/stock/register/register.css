@@ -1,0 +1,65 @@
+/* Container giống login nhưng riêng biệt */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start; /* 👈 bên trái */
+  align-items: center;
+  padding-left: 50px;
+  background-color: #f5f6fa;
+  box-sizing: border-box;
+}
+
+/* Form */
+.register-form {
+  width: 320px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.register-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Input */
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.register-input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40,167,69,0.3);
+}
+
+/* Button */
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+/* Message */
+.register-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}

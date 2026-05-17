@@ -1,0 +1,76 @@
+<div class="create-stock-container">
+  <form (ngSubmit)="createStockWithEvent(stockForm)" #stockForm="ngForm" class="stock-form">
+
+    <h2 class="form-title">Create Stock</h2>
+
+    <div class="form-group">
+      <input type="text"
+        placeholder="Stock Name"
+        required
+        name="stockName"
+        #stockName="ngModel"
+        [(ngModel)]="stock.name"
+        class="form-input" />
+
+      <div class="error" *ngIf="stockName.errors && stockName.errors?.['required']">
+        Stock name is mandatory
+      </div>
+    </div>
+
+    <div class="form-group">
+      <input type="text"
+        placeholder="Stock Code"
+        required
+        minlength="2"
+        name="stockCode"
+        #stockCode="ngModel"
+        [(ngModel)]="stock.code"
+        class="form-input" />
+
+      <div class="error" *ngIf="stockCode.dirty && stockCode.invalid">
+        <div *ngIf="stockCode.errors?.['required']">Stock code is mandatory</div>
+        <div *ngIf="stockCode.errors?.['minlength']">Min length = 2</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <input type="number"
+        placeholder="Stock Price"
+        required min="0"
+        name="stockPrice"
+        #stockPrice="ngModel"
+        [(ngModel)]="stock.price"
+        (ngModelChange)="setStockPrice($event)"
+        class="form-input" />
+
+      <div class="error" *ngIf="stockPrice.dirty && stockPrice.invalid">
+        Stock price is mandatory
+      </div>
+    </div>
+
+    <div class="form-group">
+      <select name="stockExchange"
+        [(ngModel)]="stock.exchange"
+        class="form-select">
+        <option *ngFor="let exchange of exchanges" [ngValue]="exchange">
+          {{exchange}}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-checkbox">
+      <input type="checkbox"
+        name="stockConfirm"
+        required
+        [(ngModel)]="confirmed" />
+      <span>I confirm the information is correct</span>
+    </div>
+
+    <button type="submit"
+      class="form-button"
+      [disabled]="!confirmed || stockForm.form.invalid">
+      Create Stock
+    </button>
+
+  </form>
+</div>

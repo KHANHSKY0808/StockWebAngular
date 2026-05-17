@@ -1,0 +1,65 @@
+/* Container nằm góc trái */
+.login-container {
+  display: flex;
+  justify-content: flex-start; /* 👈 đẩy sang trái */
+  align-items: flex-start;     /* 👈 lên trên */
+  height: 100vh;
+  padding: 40px;
+  background-color: #f5f6fa;
+}
+
+/* Form nhỏ gọn */
+.login-form {
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.login-title {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Input */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.login-input:focus {
+  border-color: #3498db;
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+}
+
+/* Message */
+.login-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,391 @@
+{
+  "stocks": [
+    {
+      "name": "Alpha Corp",
+      "code": "ALP",
+      "price": 30,
+      "previousPrice": 100,
+      "exchange": "NASDAQ",
+      "favorite": true,
+      "id": "1"
+    },
+    {
+      "name": "Beta Ltd",
+      "code": "BET",
+      "price": 230,
+      "previousPrice": 210,
+      "exchange": "NYSE",
+      "favorite": true,
+      "id": "2"
+    },
+    {
+      "name": "Gamma Inc",
+      "code": "GAM",
+      "price": 340,
+      "previousPrice": 300,
+      "exchange": "AMEX",
+      "favorite": true,
+      "id": "3"
+    },
+    {
+      "name": "Delta Group",
+      "code": "DEL",
+      "price": 150,
+      "previousPrice": 130,
+      "exchange": "NASDAQ",
+      "favorite": true,
+      "id": "4"
+    },
+    {
+      "name": "Epsilon Tech",
+      "code": "EPS",
+      "price": 560,
+      "previousPrice": 500,
+      "exchange": "NYSE",
+      "favorite": true,
+      "id": "5"
+    },
+    {
+      "name": "Zeta Holdings",
+      "code": "ZET",
+      "price": 90,
+      "previousPrice": 80,
+      "exchange": "NSE",
+      "favorite": true,
+      "id": "6"
+    },
+    {
+      "name": "Eta Systems",
+      "code": "ETA",
+      "price": 410,
+      "previousPrice": 390,
+      "exchange": "NASDAQ",
+      "favorite": true,
+      "id": "7"
+    },
+    {
+      "name": "Theta Energy",
+      "code": "THE",
+      "price": 780,
+      "previousPrice": 750,
+      "exchange": "NYSE",
+      "favorite": true,
+      "id": "8"
+    },
+    {
+      "name": "Iota Labs",
+      "code": "IOT",
+      "price": 220,
+      "previousPrice": 200,
+      "exchange": "AMEX",
+      "favorite": true,
+      "id": "9"
+    },
+    {
+      "name": "Kappa Co",
+      "code": "KAP",
+      "price": 305,
+      "previousPrice": 290,
+      "exchange": "NASDAQ",
+      "favorite": true,
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "name": "Lambda Corp",
+      "code": "LAM",
+      "price": 410,
+      "previousPrice": 400,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "12",
+      "name": "Mu Group",
+      "code": "MU",
+      "price": 180,
+      "previousPrice": 170,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "13",
+      "name": "Nu Tech",
+      "code": "NU",
+      "price": 620,
+      "previousPrice": 600,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "14",
+      "name": "Xi Systems",
+      "code": "XI",
+      "price": 720,
+      "previousPrice": 700,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "15",
+      "name": "Omicron Ltd",
+      "code": "OMI",
+      "price": 85,
+      "previousPrice": 70,
+      "exchange": "NSE",
+      "favorite": false
+    },
+    {
+      "id": "16",
+      "name": "Pi Holdings",
+      "code": "PI",
+      "price": 930,
+      "previousPrice": 900,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "17",
+      "name": "Rho Corp",
+      "code": "RHO",
+      "price": 410,
+      "previousPrice": 380,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "18",
+      "name": "Sigma Group",
+      "code": "SIG",
+      "price": 210,
+      "previousPrice": 200,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "19",
+      "name": "Tau Energy",
+      "code": "TAU",
+      "price": 350,
+      "previousPrice": 330,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "20",
+      "name": "Upsilon Tech",
+      "code": "UPS",
+      "price": 150,
+      "previousPrice": 140,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "21",
+      "name": "Phi Systems",
+      "code": "PHI",
+      "price": 480,
+      "previousPrice": 460,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "22",
+      "name": "Chi Corp",
+      "code": "CHI",
+      "price": 670,
+      "previousPrice": 650,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "23",
+      "name": "Psi Ltd",
+      "code": "PSI",
+      "price": 320,
+      "previousPrice": 300,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "24",
+      "name": "Omega Group",
+      "code": "OMG",
+      "price": 890,
+      "previousPrice": 850,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "25",
+      "name": "TechNova",
+      "code": "TNV",
+      "price": 210,
+      "previousPrice": 190,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "26",
+      "name": "GreenEnergy",
+      "code": "GEN",
+      "price": 430,
+      "previousPrice": 400,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "27",
+      "name": "SkyNet Ltd",
+      "code": "SKY",
+      "price": 780,
+      "previousPrice": 760,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "28",
+      "name": "FutureTech",
+      "code": "FUT",
+      "price": 950,
+      "previousPrice": 920,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "29",
+      "name": "BlueChip Co",
+      "code": "BLU",
+      "price": 110,
+      "previousPrice": 100,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "30",
+      "name": "MegaCorp",
+      "code": "MEG",
+      "price": 650,
+      "previousPrice": 600,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "31",
+      "name": "NanoSoft",
+      "code": "NAN",
+      "price": 710,
+      "previousPrice": 690,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "32",
+      "name": "CyberDyne",
+      "code": "CYB",
+      "price": 810,
+      "previousPrice": 790,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "33",
+      "name": "QuickTrade",
+      "code": "QTR",
+      "price": 260,
+      "previousPrice": 240,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "34",
+      "name": "FinCorp",
+      "code": "FIN",
+      "price": 380,
+      "previousPrice": 350,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "35",
+      "name": "AgroTech",
+      "code": "AGR",
+      "price": 140,
+      "previousPrice": 120,
+      "exchange": "NSE",
+      "favorite": false
+    },
+    {
+      "id": "36",
+      "name": "BioHealth",
+      "code": "BIO",
+      "price": 720,
+      "previousPrice": 700,
+      "exchange": "AMEX",
+      "favorite": false
+    },
+    {
+      "id": "37",
+      "name": "NextGen",
+      "code": "NXG",
+      "price": 880,
+      "previousPrice": 850,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "38",
+      "name": "CloudNet",
+      "code": "CLD",
+      "price": 540,
+      "previousPrice": 520,
+      "exchange": "NYSE",
+      "favorite": false
+    },
+    {
+      "id": "39",
+      "name": "DataWorks",
+      "code": "DTA",
+      "price": 310,
+      "previousPrice": 300,
+      "exchange": "NASDAQ",
+      "favorite": false
+    },
+    {
+      "id": "40",
+      "name": "SoftEdge",
+      "code": "SED",
+      "price": 270,
+      "previousPrice": 260,
+      "exchange": "NYSE",
+      "favorite": false
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "username": "test",
+      "password": "pass",
+      "email": "test@example.com"
+    },
+    {
+      "username": "khanh",
+      "password": "khanh123",
+      "email": "khanh123@gmail.com",
+      "id": "WjYVisW6xPU"
+    },
+    {
+      "username": "toto",
+      "password": "toto1",
+      "email": "totorial123@gmail.com",
+      "id": "eiDnW2bd_Vo"
+    },
+    {
+      "username": "huy1",
+      "password": "huy1",
+      "email": "huy1@gmail.com",
+      "id": "x4NQN0HHsfg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

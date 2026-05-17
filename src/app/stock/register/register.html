@@ -1,0 +1,36 @@
+<div class="register-container">
+  <form #f="ngForm" (ngSubmit)="onRegister(f)" class="register-form">
+    <h2 class="register-title">Đăng ký</h2>
+
+    <input
+      name="username"
+      [(ngModel)]="user.username"
+      placeholder="Username"
+      required
+      class="register-input"
+    />
+
+    <input
+      name="email"
+      [(ngModel)]="user.email"
+      placeholder="Email"
+      required
+      class="register-input"
+    />
+
+    <input
+      name="password"
+      [(ngModel)]="user.password"
+      type="password"
+      placeholder="Password"
+      required
+      class="register-input"
+    />
+
+    <button type="submit" class="register-button">
+      Đăng ký
+    </button>
+  </form>
+
+  <p class="register-message">{{message}}</p>
+</div>

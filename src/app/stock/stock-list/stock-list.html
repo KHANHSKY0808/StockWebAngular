@@ -1,0 +1,55 @@
+<input
+  type="text"
+  placeholder="Search by name or code..."
+  [(ngModel)]="searchText"
+/>
+<button (click)="onSearch()">Search</button>
+<table border="1" width="100%">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Price</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let stock of pagedStocks" app-stock-item
+        [stock]="stock"
+        (toggleFavourite)="onToggleFavourite($event)"
+        (deleteStock)="onDeleteStock($event)"
+        (updateStock)="onUpdateStock($event)"
+        (viewDetail)="onViewDetail($event)">
+    </tr>
+  </tbody>
+</table>
+
+<div class="dialog" *ngIf="isEditDialogOpen">
+  <div class="dialog-content">
+    <h3>Update Stock</h3>
+
+    <input [(ngModel)]="selectedStock!.name" placeholder="Name">
+    <input [(ngModel)]="selectedStock!.price" type="number" placeholder="Price">
+
+    <button (click)="saveUpdate()">Save</button>
+    <button (click)="closeDialog()">Cancel</button>
+  </div>
+</div>
+
+
+<div class="pagination">
+  <button (click)="setPage(page - 1)" [disabled]="page === 1">
+    Prev
+  </button>
+
+  <button *ngFor="let p of visiblePages"
+          (click)="setPage(p)"
+          [class.active]="p === page">
+    {{p}}
+  </button>
+
+  <button (click)="setPage(page + 1)" [disabled]="page === totalPages">
+    Next
+  </button>
+</div>

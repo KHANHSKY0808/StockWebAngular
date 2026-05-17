@@ -1,0 +1,12 @@
+<div *ngIf="stock; else loading">
+  <h3>Stock Detail</h3>
+
+  <p>Name: {{stock.name}}</p>
+  <p>Code: {{stock.code}}</p>
+  <p>Price: {{stock.price}}</p>
+  <p>Exchange: {{stock.exchange}}</p>
+</div>
+
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>
