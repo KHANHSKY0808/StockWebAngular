@@ -1,0 +1,2 @@
+# StockWebAngular
+angular forntend
